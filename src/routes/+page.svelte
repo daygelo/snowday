@@ -69,7 +69,7 @@
   <title>Snowday!</title>
 </svelte:head>
 
-<main class={`w-full min-h-screen ${currentTeamIndex ? 'primary-orange' : 'primary-sky'} pb-48`}>
+<main class={`w-full min-h-screen pb-48 overflow-x-clip ${currentTeamIndex ? 'primary-orange' : 'primary-sky'}`}>
   <h1 class='max-sm:pb-4 py-8 text-3xl sm:text-5xl text-center text-badge-color font-black uppercase'>Snowday!</h1>
   <div class='max-w-100 mx-auto space-y-4 pl-1 pr-2'>
     <section class='flex items-center'>
